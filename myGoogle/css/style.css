@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+.wrapper-all {
+	
+}
+
+.logo {
+    background: url('../images/google.png') no-repeat 0 0;
+    height: 190px;
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+
+.search-input {
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 50%;
+}
+
+button {
+	border: 0px;
+	padding: 10px 20px 10px 20px;
+}
