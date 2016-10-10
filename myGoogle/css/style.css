@@ -22,8 +22,8 @@ html, body {
 .logo {
 	/* Centralize the logo inside div class "logo" -> http://stackoverflow.com/a/402643 */
     background: url('../images/google272x92.png') no-repeat center center;
-    height: 90px;
-    margin-bottom: 30px;
+    height: 100px;
+    margin-bottom: 20px;
     margin-top: -150px;
 }
 
@@ -37,10 +37,10 @@ html, body {
 	border-radius: 50%;
 }
 
-nav {
+nav div {
 	float: right;
 	margin-right: 10px;
-	display: inline-block;
+	margin-top: 30px;
 }
 
 button {
