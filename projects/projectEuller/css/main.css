@@ -10,9 +10,14 @@
 }
 
 :root {
-	--background-problems: #ae3137;
+	--background-problems: #6e6964;
 	--background-button: white;
 	--background-button-pressed: yellow;
+	--text-color: white;
+}
+
+body {
+	background: #F9F9FA;
 }
 
 .problems {
@@ -20,6 +25,8 @@
 
 	padding: 50px;
 	margin: 30px;
+
+	overflow: hidden;
 }
 
 .problems p {
@@ -30,7 +37,16 @@
 	padding: 20px 0px 20px 0px;
 }
 
+.input-button-response {
+	text-align: center;
+}
+
 h1 {
+	text-align: center;
+	color: var(--text-color);
+}
+p {
+	color: var(--text-color);
 	text-align: center;
 }
 
