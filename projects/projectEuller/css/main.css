@@ -8,13 +8,16 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
+/* Simple CSS Reset */
 
+/* Vars CSS */
 :root {
 	--background-problems: #6e6964;
 	--background-button: white;
 	--background-button-pressed: yellow;
 	--text-color: white;
 }
+/* Vars CSS */
 
 body {
 	background: #F9F9FA;
@@ -62,9 +65,21 @@ button {
 
 button:hover {
 	border: 1px solid yellow;
-};
+}
 
 button:active{
 	border: 1px solid black;
 	background: var(--background-button-pressed);
-};
+}
+
+
+@media screen and (max-width: 450px) {
+	.quantity {
+		width: 100%;
+	}
+
+	.button-calculate-problems {
+		width: 100%;
+		margin-top: 10px;
+	}
+}
