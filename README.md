@@ -1,4 +1,4 @@
 # OdinProject Projects
 
 * [MyGoogle](https://airtonbjunior.github.io/odinproject/projects/mygoogle/)
-* [Euller Project](https://airtonbjunior.github.io/odinproject/projects/eullerProject/)
+* [Project Euler](https://airtonbjunior.github.io/odinproject/projects/projectEuler/)
