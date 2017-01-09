@@ -49,8 +49,8 @@ button {
 }
 .user-image {
 	background: url('../images/man.png') no-repeat left top;
-	height: 64px;
-	width: 64px;
+	height: 32px;
+	width: 32px;
 
 	margin-top: 10px; 
 }
