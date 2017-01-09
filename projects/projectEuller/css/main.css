@@ -10,9 +10,45 @@
 }
 
 :root {
-	--background-problems: #aeaeae;
+	--background-problems: #ae3137;
+	--background-button: white;
+	--background-button-pressed: yellow;
 }
 
 .problems {
 	background: var(--background-problems);
+
+	padding: 50px;
+	margin: 30px;
 }
+
+.problems p {
+	display: inline-block;
+}
+
+.problems p {
+	padding: 20px 0px 20px 0px;
+}
+
+h1 {
+	text-align: center;
+}
+
+input {
+	padding: 10px;
+}
+
+button {
+	padding: 10px;
+	background: var(--background-button);
+	border: 1px solid var(--background-button);
+}
+
+button:hover {
+	border: 1px solid yellow;
+};
+
+button:active{
+	border: 1px solid black;
+	background: var(--background-button-pressed);
+};
