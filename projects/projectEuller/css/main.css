@@ -1,3 +1,6 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Playfair+Display');
+
 /* Simple CSS Reset */
 * {
 	margin: 0;
@@ -15,7 +18,7 @@
 	--background-page: #ea9c5d;  
 	--background-problems: #433740;
 	--background-button: white;
-	--background-button-pressed: yellow;
+	--background-button-pressed: #e5dddb;
 	--text-color: #e5dddb;
 }
 /* Vars CSS */
@@ -45,13 +48,19 @@ body {
 	text-align: center;
 }
 
+.response-problem {
+	font-size: 1.2em;
+}
+
 h1 {
 	text-align: center;
 	color: var(--text-color);
+	font-family: 'Cinzel', serif;
 }
 p {
 	color: var(--text-color);
 	text-align: center;
+	font-family: 'Playfair Display', serif;
 }
 
 input {

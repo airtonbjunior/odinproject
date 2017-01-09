@@ -30,7 +30,7 @@ document.getElementById("buttonCalculateProblem1").onclick = function() {
 			sum += i;
 	}
 	
-	document.getElementById("responseProblem1").innerHTML = sum;
+	document.getElementById("responseProblem1").textContent = sum;
 }
 
 
