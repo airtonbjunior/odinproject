@@ -12,15 +12,16 @@
 
 /* Vars CSS */
 :root {
-	--background-problems: #6e6964;
+	--background-page: #ea9c5d;  
+	--background-problems: #433740;
 	--background-button: white;
 	--background-button-pressed: yellow;
-	--text-color: white;
+	--text-color: #e5dddb;
 }
 /* Vars CSS */
 
 body {
-	background: #F9F9FA;
+	background: var(--background-page);
 }
 
 .problems {
@@ -70,6 +71,25 @@ button:hover {
 button:active{
 	border: 1px solid black;
 	background: var(--background-button-pressed);
+}
+
+a {
+	text-decoration: none;
+}
+
+.social-buttons {
+	margin-top: 80px;
+	text-align: center;
+}
+.social-buttons > a:hover {
+	color: #41555f;
+}
+.social-buttons > a {
+	margin-right: 10px;
+	color: var(--background-problems);
+}
+.social-buttons > a:last-child { /* remove the margin of the last */
+	margin-right: 0px; /* sometimes, I can remove a margin left from the first with :first-child too*/
 }
 
 
