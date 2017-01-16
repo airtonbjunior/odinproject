@@ -13,6 +13,16 @@
 	--background-color-group: red;
 }
 
+.wrapper {
+	/* Centralize the main wrapper vertically and horizontally */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/* Centralize the main wrapper vertically and horizontally */
+}
+
+
 .row div {
 	display: inline-block;
 	background: var(--background-color-group);
