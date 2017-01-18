@@ -10,7 +10,8 @@
 }
 
 :root{
-	--background-color-group: red;
+	--background-color-group: white;
+	--border-color: black;
 }
 
 .wrapper {
@@ -26,6 +27,9 @@
 .row div {
 	display: inline-block;
 	background: var(--background-color-group);
+
+	border: 1px solid var(--border-color);
+
 	width: 20px;
 	height: 20px;
 
