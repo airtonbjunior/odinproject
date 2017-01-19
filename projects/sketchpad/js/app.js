@@ -1,5 +1,7 @@
 document.getElementById("reset").onclick = function() {
-	alert("yah");
+	$(".row div").each(function(){
+		$(this).removeClass("painted");
+	})
 }
 
 $(".row div").hover(function() {

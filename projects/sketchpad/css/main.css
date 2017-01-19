@@ -44,8 +44,6 @@
 
 .painted {
 	background: var(--color-painted);
-
-	width: 100px;
 }
 
 #reset {
