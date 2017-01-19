@@ -30,8 +30,10 @@
 
 	border: 1px solid var(--border-color);
 
-	width: 20px;
-	height: 20px;
+	margin: -3px;
+
+	width: 40px;
+	height: 40px;
 
 
 }
@@ -39,4 +41,8 @@
 .row div:hover {
 	background: yellow;
 
+}
+
+#reset {
+	width: 100%;
 }
