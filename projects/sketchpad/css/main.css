@@ -11,6 +11,9 @@
 
 :root{
 	--background-color-group: white;
+
+	--color-not-painted: white;
+	--color-painted: red;
 	--border-color: black;
 }
 
@@ -26,7 +29,6 @@
 
 .row div {
 	display: inline-block;
-	background: var(--background-color-group);
 
 	border: 1px solid var(--border-color);
 
@@ -34,15 +36,25 @@
 
 	width: 40px;
 	height: 40px;
-
-
 }
 
-.row div:hover {
-	background: yellow;
+.not-painted {
+	background: var(--color-not-painted);
+}
 
+.painted {
+	background: var(--color-painted);
+
+	width: 100px;
 }
 
 #reset {
 	width: 100%;
 }
+
+/*
+.row div:hover {
+	background: yellow;
+
+}
+*/
