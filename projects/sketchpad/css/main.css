@@ -10,12 +10,19 @@
 }
 
 :root{
-	--background-color-group: white;
+	--background-page: #214f68;
 
 	--color-not-painted: white;
-	--color-painted: red;
-	--border-color: black;
+	--color-painted: #e87742;
+	--border-color: #e87742;
+
+	--size-block: 30px;
 }
+
+body {
+	background: var(--background-page);
+}
+
 
 .wrapper {
 	/* Centralize the main wrapper vertically and horizontally */
@@ -26,7 +33,6 @@
 	/* Centralize the main wrapper vertically and horizontally */
 }
 
-
 .row div {
 	display: inline-block;
 
@@ -34,8 +40,8 @@
 
 	margin: -3px;
 
-	width: 40px;
-	height: 40px;
+	width: var(--size-block);
+	height: var(--size-block);
 }
 
 .not-painted {
@@ -52,9 +58,30 @@
 	width: 100%;
 }
 
-/*
-.row div:hover {
-	background: yellow;
 
+@media screen and (max-width: 890px) {
+	.row div {
+		margin: -3px;
+
+		width: calc( var(--size-block) - 5px);
+		height: calc( var(--size-block) - 5px);
+	}
 }
-*/
+
+@media screen and (max-width: 730px) {
+	.row div {
+		margin: -3px;
+
+		width: calc( var(--size-block) - 10px);
+		height: calc( var(--size-block) - 10px);
+	}
+}
+
+@media screen and (max-width: 570px) {
+	.row div {
+		margin: -3px;
+
+		width: calc( var(--size-block) - 15px);
+		height: calc( var(--size-block) - 15px);
+	}
+}
