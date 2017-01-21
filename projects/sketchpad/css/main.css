@@ -25,6 +25,19 @@ body {
 	background: var(--background-page);
 }
 
+a {
+	text-decoration: none;
+	color: var(--color-painted);
+}
+
+a:hover {
+	color: yellow;
+}
+
+.social-buttons {
+	margin-top: 30px;
+	text-align: center;
+}
 
 .wrapper {
 	/* Centralize the main wrapper vertically and horizontally */
@@ -60,6 +73,7 @@ body {
 	width: 100%;
 
 	background: var(--color-button);
+	color: white;
 }
 
 
