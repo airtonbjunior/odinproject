@@ -16,6 +16,8 @@
 	--color-painted: #e87742;
 	--border-color: #e87742;
 
+	--color-button: #e87742;
+
 	--size-block: 30px;
 }
 
@@ -56,6 +58,8 @@ body {
 	margin-bottom: 30px;
 	padding: 10px;
 	width: 100%;
+
+	background: var(--color-button);
 }
 
 
