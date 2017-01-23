@@ -102,4 +102,21 @@ a:hover {
 		width: calc( var(--size-block) - 15px);
 		height: calc( var(--size-block) - 15px);
 	}
+
+	.row {
+		margin-bottom: -5px;
+	}
+}
+
+@media screen and (max-width: 410px) {
+	.row div {
+		margin: -3px;
+
+		width: calc( var(--size-block) - 20px);
+		height: calc( var(--size-block) - 20px);
+	}
+
+	.row {
+		margin-bottom: -10px;
+	}
 }
