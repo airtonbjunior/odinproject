@@ -119,4 +119,8 @@ a:hover {
 	.row {
 		margin-bottom: -10px;
 	}
+
+	.social-buttons {
+		font-size: .7em;
+	}
 }
